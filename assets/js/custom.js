@@ -82,7 +82,6 @@ Project: CryptoCurrency
       var swiper = new Swiper(".cc-testimonial-swiper", {
         slidesPerView: 2,
         spaceBetween: 30,
-        slidesPerGroup: 2,
         loop: true,
         loopFillGroupWithBlank: true,
         pagination: {

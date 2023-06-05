@@ -746,13 +746,7 @@ text-align: center;
     justify-content: space-between;
     text-align: center;
 }
-.test-slide {
-    width: 39% !important;
-    /* background-color: var(--cc-black-light-color); */
-    padding: 3.4em;
-    position: relative;
-    border-radius: 10px;
-}
+
 
 .cc-testimonal .swiper-pagination-bullet {
      opacity: 1 !important;
@@ -791,6 +785,7 @@ text-align: center;
     line-height: 22px;
     font-weight: 400;
     margin-bottom: 25px;
+    padding: 0 80px;
 }
 
 .test-con h5 {
@@ -1536,7 +1531,9 @@ display: block;
 }
 .top-fade {
     position: relative;
+    overflow-x: clip;
 }
+
 .top-fade:before {
     content: "";
     position: absolute;
@@ -1576,7 +1573,7 @@ display: block;
     position: absolute;
     left: 0;
     top: -250px;
-
+    overflow-x: clip;
 }
 .top-vill:before {
   content: "";

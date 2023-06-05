@@ -57,7 +57,7 @@ Author: PixelNX
   </div>
   <div class="cc-banner">
     <div class="c-right"></div>
-    <div class="c-left"></div>
+    <div class="c-left rellax" data-rellax-speed="7"></div>
     <img src="assets\images\bg1.png" alt="">
     <div class="cc-page-width">
       <div class="cc-ban-content">
@@ -72,12 +72,12 @@ Author: PixelNX
     </div>
   </div>
   <div class="cc-feature top-fade">
-    <img class="globe g-left" src="./assets/images/globe.png" alt="">
-    <img class="globe g-right" src="./assets/images/globe.png" alt="">
+    <img class="globe g-left rellax" data-rellax-speed="-3" src="./assets/images/globe.png" alt="">
+    <img class="globe g-right rellax" data-rellax-speed="2"  src="./assets/images/globe.png" alt="">
     <div class="cc-container por">
       <div class="cc-feature-wrap">
         <div class="cc-feature-title">
-          <h2>How Does The Biophillia Protocol Works?</h2>
+          <h2 class="title">How Does The Biophillia Protocol Works?</h2>
           <p>Is a decentralized revolutionary approach to financial assets, that facilitates accurately profitable, sustainable and it achieves high crypto returns for all its users through BitcoinDefi Reserve Bank that provides auto-staking and auto-compounding that gives rewards similar to Bitcoin’s Reward Protocol.</p>
         </div>
         <div class="cc-feature-content por">
@@ -270,7 +270,7 @@ Author: PixelNX
       </div>
     </div>
   </div>
-  <div class="cc-converter">
+  <div class="cc-converter por">
     <div class="cc-container por">
     <div class="c-right y-left"></div>
       <div class="cc-convert-wrap">
@@ -282,7 +282,7 @@ Author: PixelNX
           </div>
         </div>
         <div class="cc-convert-img">
-         <img src="assets/images/B.png" alt="">
+         <img class=""  src="assets/images/B.png" alt="">
         </div>
       </div>
     </div>
@@ -296,7 +296,7 @@ Author: PixelNX
           <p>This is the main backbone of the network of all the participants in BitcoinDefi Staking Protocol that share the business process and objectives. These can provide sustainability, reliability and constant increase of demand of the token that is very beneficial to the whole BitcoinDefi network.</p>
         </div>
         <div class="test-box swiper mySwiper cc-testimonial-swiper">
-           <div class="swiper-wrapper">
+           <div class="swiper-wrapper py-5">
             <div class="test-slide swiper-slide">
               <div class="test-content">
                 <div class="test-con">
@@ -540,8 +540,11 @@ Author: PixelNX
   <!-- JS -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+
   <script src="assets/js/swiper-bundle.min.js"></script>
   <script src="assets/js/custom.js"></script>
+  
   <script src="assets/js/select2.min.js"></script>
   <!-- <script src="assets/js/aos.js"></script> -->
 <script>
@@ -558,6 +561,9 @@ Author: PixelNX
   
   $(this).parent('li').toggleClass('the-active').find('.faq-text').slideToggle();
 });
+
+var rellax = new Rellax('.rellax');
+
   </script> 
 
   
